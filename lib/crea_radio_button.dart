@@ -55,6 +55,8 @@ class RadioButtonGroup extends StatefulWidget {
   /// Set vertical to true to display options as a column
   final bool vertical;
 
+  ///Text alignMent for the widget
+  final String textAligment;
   /// Height of the option button in the group
   final double buttonHeight;
 
@@ -93,6 +95,7 @@ class RadioButtonGroup extends StatefulWidget {
       this.selectedColor,
       this.mainColor = Colors.grey,
       this.vertical = false,
+       this.textAligment="center",
       this.buttonHeight = 50,
       this.buttonWidth = 50,
       this.circular = false,
